@@ -1,0 +1,18 @@
+<div>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Brand</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Rating</th>
+        </tr>
+        <tr *ngFor="let data of apiData">
+            <td>{{ data.title }}</td>
+            <td>{{ data.brand }}</td>
+            <td>{{ data.category }}</td>
+            <td>{{ data.price }}</td>
+            <td>{{ data.rating }}</td>
+        </tr>
+    </table>
+</div>

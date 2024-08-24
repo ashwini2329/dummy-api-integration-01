@@ -1,0 +1,44 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Cell Styling with Borders */
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #dddddd; /* Add border to each cell */
+}
+
+/* Header Row */
+th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Row Striping */
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+}
