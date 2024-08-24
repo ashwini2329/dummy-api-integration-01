@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { DummyComponent } from './dummy/dummy.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { DataApiComponent } from './data-api/data-api.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DummyComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    DataApiComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
