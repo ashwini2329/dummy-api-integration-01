@@ -1,0 +1,28 @@
+.quote-container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    // background: url(../../assets/images/dataPage.jfif);
+    flex-direction: column;
+    background-color: black;
+}
+
+.commentary-list {
+    width: 80%;
+    height: 100px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
