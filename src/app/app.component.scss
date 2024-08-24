@@ -1,0 +1,22 @@
+.common-styles {
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 12vh;
+    top: 0;
+    background-color: #009879;
+    color: white;
+}
+
+.home {
+    height: 88vh;
+    top: 12vh;
+    // border: 5px solid red;
+}
