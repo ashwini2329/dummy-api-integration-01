@@ -1,4 +1,9 @@
-/* Table Styling */
+.dummy-container {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -9,14 +14,20 @@ table {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+
 /* Header and Cell Styling with Borders */
-th, td {
+
+th,
+td {
     padding: 12px 15px;
     text-align: left;
-    border: 1px solid #dddddd; /* Add border to each cell */
+    border: 1px solid #dddddd;
+    /* Add border to each cell */
 }
 
+
 /* Header Row */
+
 th {
     background-color: #009879;
     color: #ffffff;
@@ -24,17 +35,23 @@ th {
     font-weight: bold;
 }
 
+
 /* Row Striping */
+
 tr:nth-child(even) {
     background-color: #f3f3f3;
 }
 
+
 /* Hover Effect */
+
 tr:hover {
     background-color: #f1f1f1;
 }
 
+
 /* Responsive Table */
+
 @media screen and (max-width: 600px) {
     table {
         width: 100%;
