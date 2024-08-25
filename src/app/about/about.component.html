@@ -2,4 +2,5 @@
     <h3>using [(ngModel)]</h3>
     <input [(ngModel)]="about">
     <p>{{about | capitalize}}</p>
+    <div [ngClass]="{'active': about==='hello'}" [ngStyle]="{'font-weight': about==='hello' ? 900 : 500}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ipsam?</div>
 </div>
