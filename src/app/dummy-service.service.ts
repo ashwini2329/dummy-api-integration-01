@@ -10,6 +10,10 @@ export class DummyServiceService {
 
   constructor(private _http: HttpClient) { }
 
+  getAbout() {
+    return "HI About section !"
+  }
+
   getDummyData(): Observable<any> {
     return this._http.get(this.apiUrl);
   }
